@@ -2,9 +2,7 @@
 
 int sum(int n) {
 	int tot = 0, i;
-	for(i=1;i<=n;i++){
-		tot += i;
-	}
+	tot=(n*(n+1))/2;
 	return tot;
 }
 
